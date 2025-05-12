@@ -1,0 +1,50 @@
+.main-header {
+  background-image: url('/assets/img/png/header.png');
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.backdrop {
+  background: rgb(42, 51, 66);
+  opacity: 0.9;
+}
+
+.greeting-section {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+
+  h1 {
+    /* display-xl/ExtraBold */
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 72px;
+    letter-spacing: -2%;
+    text-align: center;
+  }
+}
+
+.badge {
+  /* Badge */
+  /* position: relative;
+  width: 116px;
+  height: 22px; */
+  /* Автолейаут */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2;
+  padding: 2px 8px 2px 8px;
+  border-radius: 36px;
+
+  box-shadow: 0px 1px 2px 0px rgba(105, 81, 255, 0.05);
+  /* Sky/600 */
+  /* background: rgb(0, 132, 209); */
+  opacity: 1;
+}
+
