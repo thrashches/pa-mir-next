@@ -24,7 +24,7 @@ jobs:
         run: |
           npm run build
         env:
-          NEXT_PUBLIC_BASE_PATH: ''
+          NEXT_PUBLIC_BASE_PATH: '/pa-mir-next'
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
