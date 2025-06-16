@@ -18,20 +18,17 @@ jobs:
 
       - name: Install dependencies
         run: |
-          cd pa-mir
           npm install
 
       - name: Build static site
         run: |
-          cd pa-mir
           npm run build
           npm run export
         env:
-          NEXT_PUBLIC_BASE_PATH: '/pa-mir'
+          NEXT_PUBLIC_BASE_PATH: ''
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: pa-mir/out
-          destination_dir: pa-mir
+          publish_dir: ./out
