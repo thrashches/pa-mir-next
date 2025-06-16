@@ -1,0 +1,21 @@
+.MainPageHeader {
+  width: 100%;
+  position: relative;
+  background-image: url("/img/png/header.png");
+}
+
+.MainPageHeader::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* Gray/900 */
+  background: rgb(42, 51, 66);
+  opacity: 0.9;
+}
+
+.content {
+  position: relative;
+}
