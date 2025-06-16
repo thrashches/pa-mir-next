@@ -1,5 +1,4 @@
 import Translates from "@/components/sections/Translates/Translates";
-import Advantages from "@/components/sections/Advantages/Advantages";
 import Footer from "@/components/sections/Footer/Footer";
 import Header from "@/components/sections/Header/Header";
 

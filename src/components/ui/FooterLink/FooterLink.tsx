@@ -1,4 +1,3 @@
-import styles from "./FooterLink.module.scss";
 import Link from "next/link";
 
 

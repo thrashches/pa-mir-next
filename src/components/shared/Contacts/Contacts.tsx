@@ -1,4 +1,3 @@
-import styles from "./Contacts.module.scss";
 import {Mail, Phone} from "@deemlol/next-icons";
 import {JSX} from "react";
 

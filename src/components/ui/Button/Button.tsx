@@ -1,6 +1,3 @@
-import styles from "./Button.module.scss";
-
-
 type ButtonProps = {
     children?: React.ReactNode;
 }
