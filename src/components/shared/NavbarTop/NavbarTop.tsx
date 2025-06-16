@@ -6,7 +6,6 @@ import Logo from "../../../../public/img/svg/logo.svg";
 import Burger from "../../../../public/img/svg/burger.svg";
 import Contacts from "@/components/shared/Contacts/Contacts";
 import NavLink from "@/components/ui/NavLink/NavLink";
-import ContactsMobile from "@/components/shared/ContactsMobile/ContactsMobile";
 import BurgerMenu from "@/components/shared/BurgerMenu/BurgerMenu";
 import {useState} from "react";
 import {Mail, Phone} from "@deemlol/next-icons";

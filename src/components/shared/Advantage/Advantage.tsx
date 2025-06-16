@@ -1,4 +1,3 @@
-import styles from "./Advantage.module.scss";
 import {JSX} from "react";
 
 

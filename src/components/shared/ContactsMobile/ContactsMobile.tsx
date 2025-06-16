@@ -1,4 +1,3 @@
-import styles from "./ContactsMobile.module.scss";
 import {Mail, Phone} from "@deemlol/next-icons";
 
 

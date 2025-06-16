@@ -1,12 +1,8 @@
 import styles from "./Footer.module.scss";
-import Navbar from "@/components/shared/Navbar/Navbar";
 import Contacts from "@/components/shared/Contacts/Contacts";
 import Image from "next/image";
 import Logo from "../../../../public/img/svg/logo.svg";
-import NavLink from "@/components/ui/NavLink/NavLink";
-import {Mail, Phone} from "@deemlol/next-icons";
-import Burger from "../../../../public/img/svg/burger.svg";
-import BurgerMenu from "@/components/shared/BurgerMenu/BurgerMenu";
+
 import FooterLink from "@/components/ui/FooterLink/FooterLink";
 import Copyright from "@/components/shared/Copyright/Copyright";
 
@@ -38,21 +34,14 @@ export default function Footer() {
                     </div>
 
                 </div>
-                <div className="flex flex-col-reverse gap-10 md:flex-row md:items-center justify-between lg:mt-10 mt-4 p-3">
+                <div
+                    className="flex flex-col-reverse gap-10 md:flex-row md:items-center justify-between lg:mt-10 mt-4 p-3">
                     <Copyright/>
                     <Contacts/>
                 </div>
             </div>
-            {/*{burgerMenuOpen && <BurgerMenu onClose={() => setBurgerMenuOpen(false)}/>}*/}
+
         </div>
-
-        {/*<div className={styles.Footer__wrapper}>*/}
-        {/*    <Navbar/>*/}
-        {/*    <div className="mx-auto max-w-7xl p-2 sm:p-2 lg:p-2">*/}
-        {/*        <Contacts/>*/}
-        {/*    </div>*/}
-
-        {/*</div>*/}
 
     </footer>
 }
