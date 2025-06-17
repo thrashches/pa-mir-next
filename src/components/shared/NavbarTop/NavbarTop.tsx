@@ -27,12 +27,12 @@ export default function NavbarTop() {
                 </div>
                 <div className="lg:flex shrink-0 items-center hidden">
                     <NavLink to={'/'}>Главная</NavLink>
-                    <NavLink to={'/services'}>Услуги</NavLink>
-                    <NavLink to={'/prices'}>Цены</NavLink>
-                    <NavLink to={'/scheme'}>Схема работы</NavLink>
-                    <NavLink to={'/about'}>О нас</NavLink>
-                    <NavLink to={'/info'}>Информация</NavLink>
-                    <NavLink to={'/contacts'}>Контакты</NavLink>
+                    <NavLink to={'/services/'}>Услуги</NavLink>
+                    <NavLink to={'/prices/'}>Цены</NavLink>
+                    <NavLink to={'/scheme/'}>Схема работы</NavLink>
+                    <NavLink to={'/about/'}>О нас</NavLink>
+                    <NavLink to={'/info/'}>Информация</NavLink>
+                    <NavLink to={'/contacts/'}>Контакты</NavLink>
                 </div>
                 <div className="ml-auto hidden lg:block">
                     <Contacts iconColor={'rgb(85, 105, 135)'}/>

@@ -26,7 +26,7 @@ export default function Question(props: QuestionProps): JSX.Element {
             </p>
         </div>
         <div className="ml-auto">
-            <button className="mt-4 transition-all duration-300" onClick={() => setIsOpen(!isOpen)}>
+            <button className="mt-4 transition-all duration-300 cursor-pointer" onClick={() => setIsOpen(!isOpen)}>
                 {isOpen?
                     <ArrowUpCircle size={24} color="rgb(187, 195, 207)" />:
                     <ArrowDownCircle size={24} color="rgb(187, 195, 207)" />
