@@ -22,12 +22,12 @@ export default function Footer() {
                     </div>
                     <nav className="lg:flex block shrink-0 items-center">
                         <FooterLink to={'/'}>Главная</FooterLink>
-                        <FooterLink to={'/services'}>Услуги</FooterLink>
-                        <FooterLink to={'/prices'}>Цены</FooterLink>
-                        <FooterLink to={'/scheme'}>Схема работы</FooterLink>
-                        <FooterLink to={'/about'}>О нас</FooterLink>
-                        <FooterLink to={'/info'}>Информация</FooterLink>
-                        <FooterLink to={'/contacts'}>Контакты</FooterLink>
+                        <FooterLink to={'/services/'}>Услуги</FooterLink>
+                        <FooterLink to={'/prices/'}>Цены</FooterLink>
+                        <FooterLink to={'/scheme/'}>Схема работы</FooterLink>
+                        <FooterLink to={'/about/'}>О нас</FooterLink>
+                        <FooterLink to={'/info/'}>Информация</FooterLink>
+                        <FooterLink to={'/contacts/'}>Контакты</FooterLink>
                     </nav>
                     <div className="ml-auto">
 

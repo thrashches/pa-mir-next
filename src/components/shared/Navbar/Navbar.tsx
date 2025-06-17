@@ -25,12 +25,12 @@ export default function Navbar({ children }: { children?: ReactNode }) {
                             <div className="flex items-center space-x-4 h-100">
                                 <div className="lg:flex shrink-0 items-center hidden">
                                     <NavLink to={'/'}>Главная</NavLink>
-                                    <NavLink to={'/services'}>Услуги</NavLink>
-                                    <NavLink to={'/prices'}>Цены</NavLink>
-                                    <NavLink to={'/scheme'}>Схема работы</NavLink>
-                                    <NavLink to={'/about'}>О нас</NavLink>
-                                    <NavLink to={'/info'}>Информация</NavLink>
-                                    <NavLink to={'/contacts'}>Контакты</NavLink>
+                                    <NavLink to={'/services/'}>Услуги</NavLink>
+                                    <NavLink to={'/prices/'}>Цены</NavLink>
+                                    <NavLink to={'/scheme/'}>Схема работы</NavLink>
+                                    <NavLink to={'/about/'}>О нас</NavLink>
+                                    <NavLink to={'/info/'}>Информация</NavLink>
+                                    <NavLink to={'/contacts/'}>Контакты</NavLink>
                                 </div>
                             </div>
                         </div>
