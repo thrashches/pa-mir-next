@@ -42,12 +42,12 @@ export default function BurgerMenu(props: BurgerMenuProps) {
         <div className="flex flex-col justify-between items-center h-[75vh] w-full">
             <nav className="flex flex-col max-h-[75%] w-full overflow-y-auto space-y-1 px-2 pt-6 pb-3">
                         <NavLink to={'/'}>Главная</NavLink>
-                        <NavLink to={'/services'}>Услуги</NavLink>
-                        <NavLink to={'/prices'}>Цены</NavLink>
-                        <NavLink to={'/scheme'}>Схема работы</NavLink>
-                        <NavLink to={'/about'}>О нас</NavLink>
-                        <NavLink to={'/info'}>Информация</NavLink>
-                        <NavLink to={'/contacts'}>Контакты</NavLink>
+                        <NavLink to={'/services/'}>Услуги</NavLink>
+                        <NavLink to={'/prices/'}>Цены</NavLink>
+                        <NavLink to={'/scheme/'}>Схема работы</NavLink>
+                        <NavLink to={'/about/'}>О нас</NavLink>
+                        <NavLink to={'/info/'}>Информация</NavLink>
+                        <NavLink to={'/contacts/'}>Контакты</NavLink>
             </nav>
             <div className="flex justify-center items-center mt-auto mb-8 max-h-[25%]">
                 <button className="block rounded-md px-3 py-2 bg-gray-500 text-md text-gray-300 cursor-pointer">
