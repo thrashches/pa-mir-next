@@ -41,7 +41,8 @@ export default function Advantages() {
                     {advantages.map((a) => <Advantage key={a.title} title={a.title} text={a.text}/>)}
                 </div>
                 <div className="relative w-full h-full md:min-h-auto min-h-[100vw]">
-                    <Image src={"/img/png/advantages.png"} alt={"Наши преимущества"} fill={true} objectFit={'contain'}/>
+                    <Image src={process.env.NEXT_PUBLIC_BASE_PATH||"" + "/img/png/advantages.png"}
+                           alt={"Наши преимущества"} fill={true} objectFit={'contain'}/>
                 </div>
             </div>
         </div>

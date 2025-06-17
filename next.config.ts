@@ -2,7 +2,8 @@ import type {NextConfig} from "next";
 
 const nextConfig: NextConfig = {
     /* config options here */
-    basePath: "/pa-mir-next",
+    basePath: process.env.NODE_ENV === 'production' ? process.env.NEXT_PUBLIC_BASE_PATH: '',
+
     trailingSlash: true,
     output: 'export',
     images: {
