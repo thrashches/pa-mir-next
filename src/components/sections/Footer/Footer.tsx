@@ -26,7 +26,6 @@ export default function Footer() {
                         <FooterLink to={'/prices/'}>Цены</FooterLink>
                         <FooterLink to={'/scheme/'}>Схема работы</FooterLink>
                         <FooterLink to={'/about/'}>О нас</FooterLink>
-                        <FooterLink to={'/info/'}>Информация</FooterLink>
                         <FooterLink to={'/contacts/'}>Контакты</FooterLink>
                     </nav>
                     <div className="ml-auto">
