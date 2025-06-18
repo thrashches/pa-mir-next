@@ -31,7 +31,6 @@ export default function NavbarTop() {
                     <NavLink to={'/prices/'}>Цены</NavLink>
                     <NavLink to={'/scheme/'}>Схема работы</NavLink>
                     <NavLink to={'/about/'}>О нас</NavLink>
-                    <NavLink to={'/info/'}>Информация</NavLink>
                     <NavLink to={'/contacts/'}>Контакты</NavLink>
                 </div>
                 <div className="ml-auto hidden lg:block">

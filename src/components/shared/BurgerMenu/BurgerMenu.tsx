@@ -46,7 +46,6 @@ export default function BurgerMenu(props: BurgerMenuProps) {
                         <NavLink to={'/prices/'}>Цены</NavLink>
                         <NavLink to={'/scheme/'}>Схема работы</NavLink>
                         <NavLink to={'/about/'}>О нас</NavLink>
-                        <NavLink to={'/info/'}>Информация</NavLink>
                         <NavLink to={'/contacts/'}>Контакты</NavLink>
             </nav>
             <div className="flex justify-center items-center mt-auto mb-8 max-h-[25%]">
