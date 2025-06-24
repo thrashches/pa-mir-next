@@ -6,7 +6,7 @@ import GoToMain from "@/components/ui/GoToMain/GoToMain";
 export default function NotFound() {
     return <div className="flex flex-col items-center justify-between min-h-screen bg-white dark:bg-gray-800">
         <Head>
-            <title>Главная</title>
+            <title>Страница не найдена</title>
         </Head>
         <Header/>
         <main className="bg-white w-full">
