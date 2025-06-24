@@ -1,7 +1,11 @@
+'use client';
 import Button from "@/components/ui/Button/Button";
+import {useRouter} from "next/navigation";
 
 
 export default function OrderBlock() {
+    const router = useRouter();
+
     return <section className="w-full py-20 px-4 border-t-1 border-dashed border-t-sky-400" style={{
         background: 'radial-gradient(50.00% 50.00% at 50% 50%,rgba(247, 248, 249, 0),rgb(247, 248, 249) 100%)'
     }}>
@@ -15,7 +19,7 @@ export default function OrderBlock() {
                 </p>
             </article>
             <div className="md:w-auto w-full">
-                <Button>Заказать</Button>
+                <Button onClick={() => router.push('/contacts/')}>Заказать</Button>
             </div>
         </div>
 
