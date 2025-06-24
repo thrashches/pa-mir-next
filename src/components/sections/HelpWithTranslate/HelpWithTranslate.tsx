@@ -1,8 +1,12 @@
+'use client'
 import styles from "./HelpWithTranslate.module.scss";
 import Button from "@/components/ui/Button/Button";
+import {useRouter} from "next/navigation";
 
 
 export default function HelpWithTranslate() {
+    const router = useRouter()
+
     return <section className={styles.HelpWithTranslate}>
         <div className="container mx-auto md:max-w-6xl md:flex items-center justify-between">
             <div>
@@ -16,7 +20,7 @@ export default function HelpWithTranslate() {
                 </article>
             </div>
             <div className="md:w-auto w-full">
-                <Button>Связаться</Button>
+                <Button onClick={() => router.push('/contacts/')}>Связаться</Button>
             </div>
         </div>
     </section>
