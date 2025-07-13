@@ -17,13 +17,13 @@ export default function Greeting() {
         </div>
         <div>
             <p className="text-gray-400 text-xl text-center">
-                Мы гарантируем высокое качество и соблюдение сроков выполнения заказов.
+                Гарантируем высокое качество и соблюдение сроков выполнения заказов.
             </p>
         </div>
         <div className="flex flex-col gap-5 items-center">
             <Button onClick={() => router.push('/contacts/')}>Заказать перевод</Button>
             <p className="text-sm text-gray-400 text-center">
-                Мы постараемся ответить на все ваши вопросы.
+                Ответим на все ваши вопросы.
             </p>
         </div>
         <div>

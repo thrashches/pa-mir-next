@@ -54,7 +54,7 @@ export default function Services() {
                             </div>
                         </div>
                         <div className="grid grid-cols-6 rounded-lg bg-white drop-shadow-sm p-4">
-                        <div className="col-start-1 col-end-5">
+                            <div className="col-start-1 col-end-5">
                                 <h4 className="text-xl font-semibold text-gray-900 text-left">
                                     Технический перевод
                                 </h4>
@@ -64,6 +64,19 @@ export default function Services() {
                             </div>
                             <div className="col-span-2 flex flex-row items-start justify-end">
                                 <ArrowLink to={"/services/tech/"}/>
+                            </div>
+                        </div>
+                        <div className="grid grid-cols-6 rounded-lg bg-white drop-shadow-sm p-4">
+                            <div className="col-start-1 col-end-5">
+                                <h4 className="text-xl font-semibold text-gray-900 text-left">
+                                    Перевод сайтов
+                                </h4>
+                                <p className="text-md text-gray-500 my-3">
+
+                                </p>
+                            </div>
+                            <div className="col-span-2 flex flex-row items-start justify-end">
+                                <ArrowLink to={"/services/sites/"}/>
                             </div>
                         </div>
                         <div className="grid grid-cols-6 rounded-lg bg-white drop-shadow-sm p-4">
