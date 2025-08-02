@@ -1,9 +1,8 @@
-import styles from "./Copyright.module.scss";
 import Link from "next/link";
 
 
 export default function Copyright() {
-    return <section className={styles.Copyright}>
+    return <section>
         <div>
             <p className="text-md text-gray-400">
                 © Бюро переводов Параллельный мир 2006-2025

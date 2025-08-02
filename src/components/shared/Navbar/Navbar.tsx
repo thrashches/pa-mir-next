@@ -1,4 +1,3 @@
-import styles from "./Navbar.module.scss";
 import Image from "next/image";
 import Logo from "../../../../public/img/svg/logo.svg";
 import {ReactNode} from "react";
@@ -6,7 +5,7 @@ import NavLink from "@/components/ui/NavLink/NavLink";
 
 
 export default function Navbar({ children }: { children?: ReactNode }) {
-    return <div className={styles.Navbar}>
+    return <div>
         <nav className="backdrop">
             <div className="mx-auto max-w-7xl p-2 sm:p-2 lg:p-2">
                 <div className="relative flex h-16 items-center justify-between">

@@ -1,4 +1,4 @@
-import styles from "./MainPageHeader.module.scss";
+import styles from "./MainPageHeader.module.css";
 import NavbarTop from "@/components/shared/NavbarTop/NavbarTop";
 import Greeting from "@/components/sections/Greeting/Greeting";
 

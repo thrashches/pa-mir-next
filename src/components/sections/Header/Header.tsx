@@ -1,5 +1,5 @@
 'use client';
-import styles from "./Header.module.scss";
+import styles from "./Header.module.css";
 import NavbarTop from "@/components/shared/NavbarTop/NavbarTop";
 
 
