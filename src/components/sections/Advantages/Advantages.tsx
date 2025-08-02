@@ -1,4 +1,4 @@
-import styles from "./Advantages.module.scss";
+import styles from "./Advantages.module.css";
 import Advantage from "@/components/shared/Advantage/Advantage";
 import Image from "next/image";
 

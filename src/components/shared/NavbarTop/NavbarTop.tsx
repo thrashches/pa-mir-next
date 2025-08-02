@@ -1,6 +1,4 @@
-"use client"
-
-import styles from "./NavbarTop.module.scss";
+"use client";
 import Image from "next/image";
 import Logo from "../../../../public/img/svg/logo.svg";
 import Burger from "../../../../public/img/svg/burger.svg";
@@ -14,7 +12,7 @@ import {Mail, Phone} from "@deemlol/next-icons";
 export default function NavbarTop() {
     const [burgerMenuOpen, setBurgerMenuOpen] = useState(false);
 
-    return <div className={styles.NavbarTop}>
+    return <div>
         <div className="xl:container xl:mx-auto lg:p-3 p-2">
 
             <div className="flex lg:gap-4 gap-3 p-1 items-center justify-between">

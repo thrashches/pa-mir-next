@@ -1,5 +1,5 @@
 'use client'
-import styles from "./HelpWithTranslate.module.scss";
+import styles from "./HelpWithTranslate.module.css";
 import Button from "@/components/ui/Button/Button";
 import {useRouter} from "next/navigation";
 

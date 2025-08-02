@@ -1,4 +1,4 @@
-import styles from "./Footer.module.scss";
+import styles from "./Footer.module.css";
 import Contacts from "@/components/shared/Contacts/Contacts";
 import Image from "next/image";
 import Logo from "../../../../public/img/svg/logo.svg";

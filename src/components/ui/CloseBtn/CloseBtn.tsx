@@ -1,4 +1,3 @@
-import styles from "./CloseBtn.module.scss";
 import Close from "../../../../public/img/svg/close.svg";
 import Image from "next/image";
 
@@ -8,7 +7,7 @@ type CloseBtnProps = {
 }
 
 export default function CloseBtn(props: CloseBtnProps) {
-    return <button className={styles.CloseBtn}><Image
+    return <button><Image
         className="w-auto"
         src={Close}
         alt="Закрыть"
