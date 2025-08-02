@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import Link from "next/link";
 
 export default function CookieConsentBanner() {
     const [visible, setVisible] = useState(false);
@@ -29,9 +30,9 @@ export default function CookieConsentBanner() {
             <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
                 <div className="text-sm md:text-base">
                     Мы используем файлы cookie для улучшения работы сайта. Продолжая использовать сайт,
-                    вы соглашаетесь с нашей <a href="/privacy" className="text-blue-300 hover:text-blue-200 underline">
+                    вы соглашаетесь с нашей <Link href={"/privacy/"} className="text-blue-300 hover:text-blue-200 underline">
                     Политикой обработки персональных данных
-                </a>.
+                </Link>.
                 </div>
                 <div className="flex gap-2">
                     <button
