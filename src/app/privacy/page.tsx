@@ -1,7 +1,5 @@
 import Head from "next/head";
 import Header from "@/components/sections/Header/Header";
-import Link from "next/link";
-import {ChevronRight} from "@deemlol/next-icons";
 import OrderBlock from "@/components/shared/OrderBlock/OrderBlock";
 import Footer from "@/components/sections/Footer/Footer";
 
