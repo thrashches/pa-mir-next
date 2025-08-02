@@ -149,7 +149,7 @@ export default function Prices() {
                                                     перевода носителем языка
                                                 </td>
                                                 <td className="border border-gray-300 px-3 py-2 text-center md:text-xl text-sm"
-                                                    colSpan="2">Цена на перевод договорная, звоните
+                                                    colSpan={2}>Цена на перевод договорная, звоните
                                                 </td>
                                             </tr>
                                             </tbody>
@@ -233,15 +233,15 @@ export default function Prices() {
                                         <table className="min-w-full border border-gray-300">
                                             <thead>
                                             <tr className="bg-gray-200">
-                                                <th rowSpan="2"
+                                                <th rowSpan={2}
                                                     className="border border-gray-300 px-3 py-2 text-left md:text-xl text-sm font-bold">Уровень
                                                     сложности макета
                                                 </th>
-                                                <th rowSpan="2"
+                                                <th rowSpan={2}
                                                     className="border border-gray-300 px-3 py-2 text-center md:text-xl text-sm font-bold">Программа
                                                     верстки
                                                 </th>
-                                                <th colSpan="3"
+                                                <th colSpan={3}
                                                     className="border border-gray-300 px-3 py-2 text-center md:text-xl text-sm font-bold">Стоимость
                                                     верстки одной физической страницы, руб.
                                                 </th>
@@ -260,7 +260,7 @@ export default function Prices() {
                                             </thead>
                                             <tbody>
                                             <tr>
-                                                <td rowSpan="2"
+                                                <td rowSpan={2}
                                                     className="border border-gray-300 px-3 py-2 md:text-xl text-sm">Текст
                                                     без рисунков и таблиц
                                                 </td>
@@ -278,7 +278,7 @@ export default function Prices() {
                                                 <td className="border border-gray-300 px-3 py-2 text-center md:text-xl text-sm">40</td>
                                             </tr>
                                             <tr>
-                                                <td rowSpan="2"
+                                                <td rowSpan={2}
                                                     className="border border-gray-300 px-3 py-2 md:text-xl text-sm">Текст
                                                     с таблицами и рисунками (инструкции по эксплуатации)
                                                 </td>
@@ -314,7 +314,7 @@ export default function Prices() {
                                                 <td className="border border-gray-300 px-3 py-2 text-center md:text-xl text-sm">Другие
                                                     программы
                                                 </td>
-                                                <td colSpan="3"
+                                                <td colSpan={3}
                                                     className="border border-gray-300 px-3 py-2 text-center md:text-xl text-sm">от
                                                     500
                                                 </td>
