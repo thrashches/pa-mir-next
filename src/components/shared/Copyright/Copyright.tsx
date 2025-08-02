@@ -10,7 +10,7 @@ export default function Copyright() {
             </p>
             <p className="text-sm text-gray-400 mt-5">
                 Работа c сайтом регламентируется <Link href={'/'} className="text-blue-300 hover:text-white">Офертой</Link> и <br/>
-                <Link href={'/'} className="text-blue-300 hover:text-white">Политикой конфиденциальности</Link>
+                <Link href={'/'} className="text-blue-300 hover:text-white">Политикой обработки персональных данных</Link>
             </p>
         </div>
     </section>
