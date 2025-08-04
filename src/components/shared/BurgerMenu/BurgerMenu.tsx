@@ -4,6 +4,7 @@ import {Mail, Phone} from "@deemlol/next-icons";
 import CloseBtn from "@/components/ui/CloseBtn/CloseBtn";
 import NavLink from "@/components/ui/NavLink/NavLink";
 import {useEffect} from "react";
+import Link from "next/link";
 
 
 type BurgerMenuProps = {
@@ -49,9 +50,9 @@ export default function BurgerMenu(props: BurgerMenuProps) {
                         <NavLink to={'/contacts/'}>Контакты</NavLink>
             </nav>
             <div className="flex justify-center items-center mt-auto mb-8 max-h-[25%]">
-                <button className="block rounded-md px-3 py-2 bg-gray-500 text-md text-gray-300 cursor-pointer">
+                <Link href={'/contacts/'} className="block rounded-md px-3 py-2 bg-gray-500 text-md text-gray-300 cursor-pointer">
                     Заказать перевод
-                </button>
+                </Link>
             </div>
         </div>
     </div>

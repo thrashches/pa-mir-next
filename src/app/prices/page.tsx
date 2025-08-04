@@ -35,17 +35,16 @@ export default function Prices() {
                             <div className="text-gray-500 font-sans">
                                 <div className="mb-6">
                                     <h2 className="md:text-xl text-sm font-bold mb-2">
-                                        1. Стоимость <a href="http://www.pa-mir.ru/"
-                                                        className="text-gray-600 hover:underline">технического и
-                                        медицинского перевода</a>. Письменный перевод текста
+                                        1. Стоимость <Link href={"/services/"}
+                                                           className="text-gray-600 hover:underline">технического и
+                                        медицинского перевода</Link>. Письменный перевод текста
                                     </h2>
 
                                     <div className="bg-yellow-50 p-2 mb-4 border-l-4 border-red-500">
                                         <p className="md:text-xl text-sm font-bold">
-                                            <span className="text-red-600">Внимание!</span> Указаны цены перевода
-                                            <a href="http://www.pa-mir.ru/standard_page.htm"
-                                               className="text-gray-600 hover:underline">1 стандартной
-                                                страницы</a> (1800 символов, включая пробелы).
+                                            <span className="text-red-600">Внимание!</span> Указаны цены перевода <span
+                                            className="text-gray-600">1 стандартной
+                                                страницы (1800 символов, включая пробелы).</span>
                                         </p>
                                         <p className="md:text-xl text-sm font-bold">
                                             Цены на перевод не включают и не облагаются НДС (Упрощенная система
@@ -223,9 +222,9 @@ export default function Prices() {
 
                                 <div className="mb-6">
                                     <h2 className="md:text-xl text-sm font-bold mb-2">
-                                        3. Верстка и допечатная подготовка <a
-                                        href="http://www.pa-mir.ru/documentation.htm"
-                                        className="text-gray-600 hover:underline">переводов документации</a> (цены за
+                                        3. Верстка и допечатная подготовка <Link
+                                        href={"/services/decoration/"}
+                                        className="text-gray-600 hover:underline">переводов документации</Link> (цены за
                                         страницу А4)
                                     </h2>
 

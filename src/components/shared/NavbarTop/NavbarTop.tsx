@@ -7,6 +7,7 @@ import NavLink from "@/components/ui/NavLink/NavLink";
 import BurgerMenu from "@/components/shared/BurgerMenu/BurgerMenu";
 import {useState} from "react";
 import {Mail, Phone} from "@deemlol/next-icons";
+import Link from "next/link";
 
 
 export default function NavbarTop() {
@@ -16,13 +17,13 @@ export default function NavbarTop() {
         <div className="xl:container xl:mx-auto lg:p-3 p-2">
 
             <div className="flex lg:gap-4 gap-3 p-1 items-center justify-between">
-                <div className="flex shrink-0 items-center max-w-[55vw]">
+                <Link href={"/"} className="flex shrink-0 items-center max-w-[55vw]">
                     <Image
                         className="w-auto"
                         src={Logo}
                         alt="Бюро переводов Параллельный мир"
                     />
-                </div>
+                </Link>
                 <div className="lg:flex shrink-0 items-center hidden">
                     <NavLink to={'/'}>Главная</NavLink>
                     <NavLink to={'/services/'}>Услуги</NavLink>
